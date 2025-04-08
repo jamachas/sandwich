@@ -1,0 +1,102 @@
+/************ Classes ************/
+body {
+  background-color: #f3f3f3;
+/*    border-style: ridge;*/
+
+}
+footer {
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  margin: 0 auto;
+  padding: 6px;
+  color: #264c72;
+  border: 1px solid #97c1da;
+  border-radius: 3px;
+  background: linear-gradient(#d8ebf8, #d0e3ef);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+.browser li {
+  list-style: none;
+  display: inline;
+}
+.browser .none {
+  opacity: 0.4;
+}
+
+.post-it {
+  padding: 8px 2px 2px;
+  background: #fffc7f none repeat scroll 0;
+  /*  font: 900 1em/ 1.25 pinyon script, cursive; */
+  font: cursive;
+  cursor: move;
+  height: 112px;
+  position: absolute;
+  width: 112px;
+  top: 64px;
+  box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+}
+
+.post-it textarea {
+  background-color: transparent;
+  font-size: 1.2em;
+  border: none;
+  position: absolute;
+  left: 4px;
+  top: 12px;
+  width: 92%;
+  height: 92%;
+  resize: none;
+  padding: 2px;
+  overflow: hidden;
+}
+.post-it textarea:focus {
+  background: #fffcaf;
+  outline: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.post-it button {
+  text-align: center;
+  margin-top: -8px;
+  width: 16px;
+  height: 16px;
+  display: block;
+  float: right;
+  border-radius: 50%;
+  border: none;
+  font-weight: bold;
+  font-size: 0.6em;
+  font-family: Lucida Handwriting, Script MT Bold;
+  background-color: #fffc7f;
+  color: #fffc7f;
+}
+
+.post-it:hover button {
+  background-color: #fffcaf;
+  color: #333;
+}
+.post-it button:hover {
+  color: red;
+}
+
+.icon-postit {
+  border-style: none;
+  background-color: #fffc7f;
+  font-family: cursive;
+  font-size: 0.7em;
+  margin: 16px;
+  padding: 2px;
+  width: 72px;
+  height: 72px;
+  float: left;
+  box-shadow: 1px 1px rgb(195, 195, 68), 2px 2px rgb(231, 231, 104),
+    3px 3px rgb(219, 219, 92), 4px 4px rgb(207, 207, 80),
+    5px 5px rgb(195, 195, 68), 6px 6px rgb(183, 183, 56),
+    7px 7px rgb(171, 171, 44), 8px 8px rgb(159, 159, 32),
+    9px 9px rgb(147, 147, 20), 10px 10px rgb(135, 135, 8);
+}
